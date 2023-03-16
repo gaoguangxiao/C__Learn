@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6E727B29C310820078645B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E727A29C310820078645B /* main.cpp */; };
+		1E6E728829C310BD0078645B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E728729C310BD0078645B /* main.cpp */; };
+		1E6E729329C3153B0078645B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E729229C3153B0078645B /* main.cpp */; };
+		1E6E729E29C317F80078645B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E729D29C317F80078645B /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E6E727529C310820078645B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1E6E728329C310BD0078645B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1E6E728E29C3153B0078645B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1E6E729929C317F80078645B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E6E727729C310820078645B /* 001-C++STL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "001-C++STL"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6E727A29C310820078645B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1E6E728529C310BD0078645B /* vector存放的内置数据类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "vector存放的内置数据类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6E728729C310BD0078645B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1E6E729029C3153B0078645B /* vector存放的自定义数据类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "vector存放的自定义数据类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6E729229C3153B0078645B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1E6E729B29C317F80078645B /* 容器嵌套容器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "容器嵌套容器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6E729D29C317F80078645B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6E727429C310820078645B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6E728229C310BD0078645B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6E728D29C3153B0078645B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6E729829C317F80078645B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6E726E29C310820078645B = {
+			isa = PBXGroup;
+			children = (
+				1E6E727929C310820078645B /* 001-C++STL */,
+				1E6E728629C310BD0078645B /* vector存放的内置数据类型 */,
+				1E6E729129C3153B0078645B /* vector存放的自定义数据类型 */,
+				1E6E729C29C317F80078645B /* 容器嵌套容器 */,
+				1E6E727829C310820078645B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E6E727829C310820078645B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E727729C310820078645B /* 001-C++STL */,
+				1E6E728529C310BD0078645B /* vector存放的内置数据类型 */,
+				1E6E729029C3153B0078645B /* vector存放的自定义数据类型 */,
+				1E6E729B29C317F80078645B /* 容器嵌套容器 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6E727929C310820078645B /* 001-C++STL */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E727A29C310820078645B /* main.cpp */,
+			);
+			path = "001-C++STL";
+			sourceTree = "<group>";
+		};
+		1E6E728629C310BD0078645B /* vector存放的内置数据类型 */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E728729C310BD0078645B /* main.cpp */,
+			);
+			path = "vector存放的内置数据类型";
+			sourceTree = "<group>";
+		};
+		1E6E729129C3153B0078645B /* vector存放的自定义数据类型 */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E729229C3153B0078645B /* main.cpp */,
+			);
+			path = "vector存放的自定义数据类型";
+			sourceTree = "<group>";
+		};
+		1E6E729C29C317F80078645B /* 容器嵌套容器 */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E729D29C317F80078645B /* main.cpp */,
+			);
+			path = "容器嵌套容器";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E6E727629C310820078645B /* 001-C++STL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6E727E29C310820078645B /* Build configuration list for PBXNativeTarget "001-C++STL" */;
+			buildPhases = (
+				1E6E727329C310820078645B /* Sources */,
+				1E6E727429C310820078645B /* Frameworks */,
+				1E6E727529C310820078645B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001-C++STL";
+			productName = "001-C++STL";
+			productReference = 1E6E727729C310820078645B /* 001-C++STL */;
+			productType = "com.apple.product-type.tool";
+		};
+		1E6E728429C310BD0078645B /* vector存放的内置数据类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6E728929C310BD0078645B /* Build configuration list for PBXNativeTarget "vector存放的内置数据类型" */;
+			buildPhases = (
+				1E6E728129C310BD0078645B /* Sources */,
+				1E6E728229C310BD0078645B /* Frameworks */,
+				1E6E728329C310BD0078645B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vector存放的内置数据类型";
+			productName = "vector存放的内置数据类型";
+			productReference = 1E6E728529C310BD0078645B /* vector存放的内置数据类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1E6E728F29C3153B0078645B /* vector存放的自定义数据类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6E729429C3153B0078645B /* Build configuration list for PBXNativeTarget "vector存放的自定义数据类型" */;
+			buildPhases = (
+				1E6E728C29C3153B0078645B /* Sources */,
+				1E6E728D29C3153B0078645B /* Frameworks */,
+				1E6E728E29C3153B0078645B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vector存放的自定义数据类型";
+			productName = "vector存放的自定义数据类型";
+			productReference = 1E6E729029C3153B0078645B /* vector存放的自定义数据类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		1E6E729A29C317F80078645B /* 容器嵌套容器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6E729F29C317F80078645B /* Build configuration list for PBXNativeTarget "容器嵌套容器" */;
+			buildPhases = (
+				1E6E729729C317F80078645B /* Sources */,
+				1E6E729829C317F80078645B /* Frameworks */,
+				1E6E729929C317F80078645B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "容器嵌套容器";
+			productName = "容器嵌套容器";
+			productReference = 1E6E729B29C317F80078645B /* 容器嵌套容器 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E6E726F29C310820078645B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1E6E727629C310820078645B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1E6E728429C310BD0078645B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1E6E728F29C3153B0078645B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1E6E729A29C317F80078645B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1E6E727229C310820078645B /* Build configuration list for PBXProject "001-C++STL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E6E726E29C310820078645B;
+			productRefGroup = 1E6E727829C310820078645B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E6E727629C310820078645B /* 001-C++STL */,
+				1E6E728429C310BD0078645B /* vector存放的内置数据类型 */,
+				1E6E728F29C3153B0078645B /* vector存放的自定义数据类型 */,
+				1E6E729A29C317F80078645B /* 容器嵌套容器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6E727329C310820078645B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6E727B29C310820078645B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6E728129C310BD0078645B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6E728829C310BD0078645B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6E728C29C3153B0078645B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6E729329C3153B0078645B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6E729729C317F80078645B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6E729E29C317F80078645B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E6E727C29C310820078645B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1E6E727D29C310820078645B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1E6E727F29C310820078645B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZURSBPY7B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E6E728029C310820078645B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZURSBPY7B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E6E728A29C310BD0078645B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZURSBPY7B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E6E728B29C310BD0078645B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZURSBPY7B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E6E729529C3153B0078645B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZURSBPY7B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E6E729629C3153B0078645B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZURSBPY7B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E6E72A029C317F80078645B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZURSBPY7B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E6E72A129C317F80078645B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZURSBPY7B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E6E727229C310820078645B /* Build configuration list for PBXProject "001-C++STL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6E727C29C310820078645B /* Debug */,
+				1E6E727D29C310820078645B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6E727E29C310820078645B /* Build configuration list for PBXNativeTarget "001-C++STL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6E727F29C310820078645B /* Debug */,
+				1E6E728029C310820078645B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6E728929C310BD0078645B /* Build configuration list for PBXNativeTarget "vector存放的内置数据类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6E728A29C310BD0078645B /* Debug */,
+				1E6E728B29C310BD0078645B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6E729429C3153B0078645B /* Build configuration list for PBXNativeTarget "vector存放的自定义数据类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6E729529C3153B0078645B /* Debug */,
+				1E6E729629C3153B0078645B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6E729F29C317F80078645B /* Build configuration list for PBXNativeTarget "容器嵌套容器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6E72A029C317F80078645B /* Debug */,
+				1E6E72A129C317F80078645B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E6E726F29C310820078645B /* Project object */;
+}
